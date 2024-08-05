@@ -1,0 +1,20 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+
+.bg-offwhite {
+  background-color: #F5F4E9;
+}
+
+.bg-gradient-offwhite {
+  background-image: linear-gradient(to bottom, #F5F4E9 0, #FFF 100%);
+}
+
+
+@media screen and (min-width: 768px) {
+  .sticky-lg {
+    position: sticky !important;
+    top: 0;
+  }
+}

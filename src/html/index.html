@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head
+      title="BFF | Brighter Futures Foundation"
+      description="The Brighter Futures Foundation empowers students to achieve their goals through scholarships, mental health support, and personal development programs."
+    }}
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="bg-white border-bottom" container="container-fluid" button="primary"}}
+
+    <!-- WELCOME -->
+    <section class="py-8 py-md-11 bg-gradient-offwhite">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Image -->
+             <img src="assets/img/bff-logo.svg" class="w-50 mb-5" alt="Brighter Futures Foundation Logo">
+
+            <!-- Text -->
+            <p class="lead text-body-secondary">
+              The Brighter Futures Foundation empowers students to achieve their goals through scholarships, mental health support, and personal development programs. We provide financial assistance for college education and vocational training, while also fostering resilience and emotional well-being. Our holistic approach equips young people with the tools they need to persevere, seize opportunities, and create brighter futures for themselves and their communities.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- WELCOME -->
+    <section class="position-relative py-8 py-md-11 mb-9">
+
+      <!-- Shape -->
+      <div class="shape shape-fluid-x shape-blur-1 text-gray-200">
+        {{> blurs/blur-1}}
+      </div>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 order-md-2">
+
+            <!-- Image -->
+            <div class="img-skewed img-skewed-start mb-8 mb-md-0">
+              <img src="assets/img/the-battle-at-the-bandit-flyer.jpg" alt="..." class="screenshot img-fluid mw-md-130" data-aos="img-skewed-item-start" data-aos-delay="100">
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 order-md-1" data-aos="fade-up">
+
+            <!-- Badge -->
+            <span class="badge rounded-pill text-bg-success-subtle mb-3">
+              <span class="h6 text-uppercase">Golf Tournament Fundraiser</span>
+            </span>
+
+            <!-- Heading -->
+            <h1 class="display-3">
+              The Battle at<br>
+              <span class="text-primary">The Bandit</span>
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-body-secondary mb-6 mb-md-8">
+              Join us for The Battle At The Bandit, our inaugural golf tournament featuring $30,000 in contests, exciting raffle prizes, and a chance to win $50,000 for a hole-in-one!
+            </p>
+
+            <!-- Buttons -->
+            <a href="the-battle-at-the-bandit.html" class="btn btn-primary me-1 lift">
+              Register Now <i class="fe fe-arrow-right ms-3"></i>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- FOOTER -->
+    {{> partials/footer classList="bg-white"}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
+</html>

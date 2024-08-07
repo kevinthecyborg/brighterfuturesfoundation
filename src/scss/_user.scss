@@ -11,6 +11,14 @@
   background-image: linear-gradient(to bottom, #F5F4E9 0, #FFF 100%);
 }
 
+.bg-gradient-offwhite-pattern-1 {
+  background: url("../img/patterns/pattern-1.svg"), linear-gradient(to bottom, #F5F4E9 0, transparent 100%);
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
 
 @media screen and (min-width: 768px) {
   .sticky-lg {

@@ -12,16 +12,16 @@
     {{> partials/navbar classList="bg-white border-bottom" container="container-fluid" button="primary"}}
 
     <!-- WELCOME -->
-    <section class="py-8 py-md-11 bg-gradient-offwhite">
+    <section class="py-8 py-md-11 bg-gradient-offwhite-pattern-1">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center">
+          <div class="col-12 col-md-10 col-lg-10 text-center">
 
             <!-- Image -->
-             <img src="assets/img/bff-logo.svg" class="w-50 mb-5" alt="Brighter Futures Foundation Logo">
+             <img src="assets/img/bff-logo.svg" class="w-40 mb-5" alt="Brighter Futures Foundation Logo">
 
             <!-- Text -->
-            <p class="lead text-body-secondary">
+            <p class="lead text-body-secondary mt-lg-4">
               The Brighter Futures Foundation empowers students to achieve their goals through scholarships, mental health support, and personal development programs. We provide financial assistance for college education and vocational training, while also fostering resilience and emotional well-being. Our holistic approach equips young people with the tools they need to persevere, seize opportunities, and create brighter futures for themselves and their communities.
             </p>
 
@@ -77,6 +77,95 @@
       </div> <!-- / .container -->
 
     </section>
+
+    <!-- OUR IMPACT -->
+    <section class="bg-black pt-8 pt-md-12 pb-6 pb-md-10">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Badge -->
+            <span class="badge rounded-pill text-bg-secondary-subtle mb-3">
+              <span class="h6 text-uppercase">Our Impact</span>
+            </span>
+
+            <!-- Heading -->
+            <h1 class="fw-bold text-white">
+              We're committed to our community
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-body-secondary mb-9">
+              In Texas, suicide is the second leading cause of death for teens. The Brighter Futures Foundation is on a mission to reverse that by:
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+
+            <!-- Icon -->
+            <div class="icon icon-lg text-secondary mb-4">
+              {{> communication/mail-heart}}
+            </div>
+
+            <!-- Heading -->
+            <h3 class="fw-bold text-white">
+              Providing Scholarships
+            </h3>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-8">
+              Empowering students to achieve their educational and career goals.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+
+            <!-- Icon -->
+            <div class="icon icon-lg text-secondary mb-4">
+              {{> general/smile}}
+            </div>
+
+            <!-- Heading -->
+            <h3 class="fw-bold text-white">
+              Promoting Mental Health
+            </h3>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-8 mb-lg-0">
+              Advocating for mental health awareness and suicide prevention.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+
+            <!-- Icon -->
+            <div class="icon icon-lg text-secondary mb-4">
+              {{> general/star}}
+            </div>
+
+            <!-- Heading -->
+            <h3 class="fw-bold text-white">
+              Inspiring Hope
+            </h3>
+
+            <!-- Text -->
+            <p class="text-body-secondary mb-8 mb-md-0">
+              Creating opportunities for individuals to pursue their dreams.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CURVE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-white">
+        {{> curves/curve-1}}
+      </div>
+    </div>
 
     <!-- FOOTER -->
     {{> partials/footer classList="bg-white"}}

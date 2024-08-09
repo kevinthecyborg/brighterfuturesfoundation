@@ -19,6 +19,18 @@
   background-size: cover;
 }
 
+.bg-gradient-offwhite-light-pattern-1 {
+  background:
+    linear-gradient(to bottom, rgba(245,244,233,75%) 0, #F9FBFD 100%),
+    url("../img/patterns/stars.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.badge h5 {
+  letter-spacing: .08em;
+}
+
 .w-40 {
   width: 40% !important;
 }
